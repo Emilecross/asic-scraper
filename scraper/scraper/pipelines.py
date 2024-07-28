@@ -8,9 +8,9 @@ class PSQLPipeline:
         self.cur = self.connection.cursor()
         self.mailer = MailSender(smtphost='smtp.gmail.com',
                                  smtpport=587,
-                                 mailfrom='realwebcms@gmail.com',
-                                 smtpuser='realwebcms@gmail.com',
-                                 smtppass='dbrdsursamnwnzmg',
+                                 mailfrom='asicdb@gmail.com',
+                                 smtpuser='asicdb@gmail.com',
+                                 smtppass='sygusocuvqgfkrbr',
                                  smtptls=True,
                                  smtpssl=False,)
         

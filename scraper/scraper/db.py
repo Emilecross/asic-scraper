@@ -13,7 +13,7 @@ def get_db_connection():
         connection = psycopg2.connect(host=hostname,user=username, password=password, dbname=database, port=port)
         ## Create cursor, used to execute commands
         cur = connection.cursor()
-        ## Create quotes table if none exists
+        ## Create notices table if none exists
         cur.execute("""
             CREATE TABLE IF NOT EXISTS notices(
                 acn VARCHAR(9) PRIMARY KEY, 

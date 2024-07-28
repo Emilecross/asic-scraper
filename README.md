@@ -1,4 +1,4 @@
-# Scraping-bike-specifications-using-Scrapy
+# Scraping notices from the ASIC website Scrapy
 Scrape from ASIC notices website the liquidation notices,
 - You can find the python script in scraper/spiders/asic.py
 
@@ -9,7 +9,7 @@ Installation : [Python](https://www.python.org/downloads/)
 Installation : [Pip](https://www.liquidweb.com/kb/install-pip-windows/)
 
 ## HOW TO USE
-1. Download the whole project and save it in a folder. 
+1. Download the whole project and save it in a folder.
 2. Open cmd.exe at the project folder and run command `pip install -r requirements. txt`, to install all required packages
 3. To run the spider, use this command : `scrapy crawl asic`
 
